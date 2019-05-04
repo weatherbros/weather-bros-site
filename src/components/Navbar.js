@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
+import instagram from '../img/social/instagram.svg'
+import twitter from '../img/social/twitter.svg'
+import youtube from '../img/social/youtube.svg'
 import logo from "../img/logo-01.svg";
 
 const Navbar = class extends React.Component {
@@ -69,22 +71,39 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/blog">
                 Blog
               </Link>
-              <Link className="navbar-item" to="/contact">
+              {/*<Link className="navbar-item" to="/contact">
                 Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
+              </Link>*/}
             </div>
             <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
-                href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
+                href="https://twitter.com/wiwxbros"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={github} alt="Github" />
+                  <img src={twitter} alt="Twitter" />
+                </span>
+              </a>
+              <a
+                className="navbar-item"
+                href="https://www.instagram.com/wxbros/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <img src={instagram} alt="Instagram" />
+                </span>
+              </a>
+              <a
+                className="navbar-item"
+                href="https://www.youtube.com/channel/UCAJq8wOj_3Z2eEQ-VyoPJmw"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <img src={youtube} alt="Youtube" />
                 </span>
               </a>
             </div>
