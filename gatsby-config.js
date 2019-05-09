@@ -79,7 +79,7 @@ module.exports = {
                 node {
                   path
                   context {
-                    modifiedDate
+                    date
                   }
                 }
               }
