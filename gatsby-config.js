@@ -98,13 +98,13 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: config.googleAnalyticsID,
+        trackingId: config.googleSiteTag,
       },
     },
     {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
-        id: config.googleAnalyticsID,
+        id: config.googleSiteTag,
       },
     },
     {
