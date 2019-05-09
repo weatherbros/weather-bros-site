@@ -1,10 +1,12 @@
 var proxy = require("http-proxy-middleware")
+const config = require('./config/SiteConfig');
 
 module.exports = {
   siteMetadata: {
-    title: 'Weather Bros. | Midwest Storm Chasers',
-    description:
-      'Weather Bros. are a storm chaser duo that travel all over the midwest.',
+    // these metadata only used for gatsby-plugin-feed
+    title: config.siteTitle,
+    description: config.siteDescription,
+    siteUrl: config.siteUrl,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -59,6 +61,50 @@ module.exports = {
             },
           },
         ],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+
+            allSitePage {
+              edges {
+                node {
+                  path
+                  context {
+                    modifiedDate
+                  }
+                }
+              }
+            }
+          }
+        `,
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.edges.map(edge => ({
+            url: site.siteMetadata.siteUrl + edge.node.path,
+            changefreq: 'daily',
+            priority: 0.7,
+            lastmodISO: edge.node.context.modifiedDate,
+          })),
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: config.googleAnalyticsID,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-google-tagmanager',
+      options: {
+        id: config.googleAnalyticsID,
       },
     },
     {
