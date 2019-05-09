@@ -98,7 +98,7 @@ const Navbar = class extends React.Component {
               </a>
               <a
                 className="navbar-item"
-                href="https://www.youtube.com/channel/UCAJq8wOj_3Z2eEQ-VyoPJmw"
+                href="https://www.youtube.com/channel/UCl9rpsGqt1XKTgyibRNPcmg"
                 target="_blank"
                 rel="noopener noreferrer"
               >
