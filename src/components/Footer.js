@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import logo from '../img/logo-02.svg'
-import stripes from '../img/stripe-background.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
 import youtube from '../img/social/youtube.svg'
