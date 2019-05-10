@@ -37,7 +37,7 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 testimonials: []
-full_image: /img/MeetTheGuys03.jpg
+full_image: /img/MeetTheGuys01.jpg
 pricing:
   heading: Meet The "Bros"
   description: >-
