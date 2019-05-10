@@ -14,7 +14,7 @@ const Footer = class extends React.Component {
         <img
           src={logo}
           alt="Weather Bros."
-          style={{ padding: '20em' }}
+          style={{ padding: '20px' }}
           // style={{ width: '14em', height: '10em' }}
         />
       </div>
