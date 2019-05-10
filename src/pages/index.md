@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at nisi ipsum."'
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: '- Lorem ipsum -'
 mainpitch:
   title: Why Kaldi
   description: >
