@@ -1,7 +1,6 @@
 ---
 templateKey: product-page
-title: Our Coffee
-path: /products
+title: Our Coffeedewf
 image: /img/blog-image.jpg
 heading: Great coffee with a conscience
 description: >-
