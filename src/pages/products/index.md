@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Our Coffee
+title: Our Coffeedwdw
 image: /img/blog-image.jpg
 heading: Great coffee with a conscience
 description: >-
