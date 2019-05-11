@@ -42,18 +42,19 @@ pricing:
   heading: Meet The "Bros"
   description: >-
     Nope, they aren't related, they are two friends who met in college and
-    shared their interest in storm chasing. Lorem ipsum dolor sit amet,
-    consectetur adipiscing elit. Aliquam cursus elit sed purus gravida, nec
-    fermentum dolor tincidunt. Etiam a nisi sed erat aliquam auctor.
+    shared their interest in storm chasing.  Talk about how we met, our shared
+    interest in weather and aviation. Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Aliquam cursus elit sed purus gravida, nec fermentum dolor
+    tincidunt. Etiam a nisi sed erat aliquam auctor.
   plans:
     - description: >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam cursus
-        elit sed purus gravida, nec fermentum dolor tincidunt. Etiam a nisi sed
-        erat aliquam auctor.
+        Chris works in data science at a technology company in Chicago. When he
+        isn't chasing storms, Chris likes to brew beer, explore Chicago on his
+        bike, and make interactive maps. 
       items:
-        - Fact1
-        - Fact2
-        - Fact3
+        - Something Crazy
+        - Cool Fact
+        - Favorite chasing experience
       plan: ' '
       price: Chris
     - description: >-
