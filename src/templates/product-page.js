@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+// import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const ProductPageTemplate = ({
   image,
@@ -40,16 +40,16 @@ export const ProductPageTemplate = ({
     </div>
     <section className="section section--gradient">
       <div className="container">
-        <div className="section">
+        <div className="">
           <div className="columns">
-            <div className="column is-7 is-offset-1">
+            <div className="column is-7">
               <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
               <p>{description}</p>
             </div>
           </div>
           <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <Features gridItems={intro.blurbs} />
+            <div className="column is-10">
+              {/* <Features gridItems={intro.blurbs} />
               <div className="columns">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-3">
@@ -57,7 +57,7 @@ export const ProductPageTemplate = ({
                   </h3>
                   <p>{main.description}</p>
                 </div>
-              </div>
+              </div> */}
               {
               // <div className="tile is-ancestor">
               //   <div className="tile is-vertical">
@@ -82,16 +82,11 @@ export const ProductPageTemplate = ({
               // </div>
               }
               <Testimonials testimonials={testimonials} />
-              <div
-                className="full-width-image-container"
-                style={{
-                  backgroundImage: `url(${
+              <img src={`${
                     fullImage.childImageSharp
                       ? fullImage.childImageSharp.fluid.src
                       : fullImage
-                  })`,
-                }}
-              />
+                  }`}/>
               <h2 className="has-text-weight-semibold is-size-2">
                 {pricing.heading}
               </h2>

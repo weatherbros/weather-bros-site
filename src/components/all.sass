@@ -2,12 +2,13 @@
 
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+$kaldi-red: rgb(234, 84, 85)
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
+$body-background: #f8f8f8
 $black: #2b2523
 
 .navbar .navbar-menu
@@ -30,12 +31,12 @@ $black: #2b2523
 
 // Helper Classes
 .full-width-image-container
-  width: 100vw
+  width: 100%
   height: 100vh
   position: relative
-  left: 50%
-  right: 50%
-  margin: 2em -50vw
+  //left: 50%
+  //right: 50%
+  //margin: 2em -50vw
   background-size: cover
   background-position: bottom
   display: flex
@@ -43,7 +44,7 @@ $black: #2b2523
   align-items: center
 
 .full-width-image
-    width: 100vw
+    width: 100%
     height: 100vh
     background-size: cover
     background-position: bottom
@@ -120,11 +121,21 @@ $menu-label-color: $white-ter
   background-position: center center;
   height: 116px;
 
+.tile.box
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
 
+body
+  background-color: $body-background
 
+section.section
+  padding: 3rem .5rem
 
-
-
+@media screen and (min-width: 769px)
+  div.column.is-10 
+    width: 100%
+  div.column.is-7 
+    width: 100%
 
 //@import "~bulma"
 @import "~bulma/bulma"
+@import "./blog-styles"
