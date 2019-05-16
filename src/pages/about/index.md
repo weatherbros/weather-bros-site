@@ -2,12 +2,8 @@
 templateKey: product-page
 title: About Us
 image: /img/blog-image.jpg
-heading: ' '
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+heading: ' Meet The "Bros"'
+description: ' '
 intro:
   blurbs: []
   heading: Our Mission
@@ -39,7 +35,7 @@ main:
 testimonials: []
 full_image: /img/13335776_10209471314240941_7790114254137983552_n.png
 pricing:
-  heading: Meet The "Bros"
+  heading: ' '
   description: >-
     Nate and Chris met in college at the University of Wisconsin while studying
     atmospheric science. Their shared interests in severe weather and aviation
