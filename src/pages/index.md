@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at nisi ipsum."'
+title: '"Never stop chasing..."'
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
-subheading: '- Lorem ipsum -'
+subheading: ' '
 mainpitch:
   title: Why Kaldi
   description: >
