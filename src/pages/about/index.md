@@ -37,24 +37,23 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 testimonials: []
-full_image: /img/MeetTheGuys01.jpg
+full_image: /img/13335776_10209471314240941_7790114254137983552_n.png
 pricing:
   heading: Meet The "Bros"
   description: >-
-    Nope, they aren't related, they are two friends who met in college and
-    shared their interest in storm chasing.  Talk about how we met, our shared
-    interest in weather and aviation. Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Aliquam cursus elit sed purus gravida, nec fermentum dolor
-    tincidunt. Etiam a nisi sed erat aliquam auctor.
+    Nate and Chris met in college at the University of Wisconsin while studying
+    atmospheric science. Their shared interests in severe weather and aviation
+    quickly led to friendship. Since 2014, the Weather Bros. have chased severe
+    weather events across the United States.
   plans:
     - description: >-
         Chris works in data science at a technology company in Chicago. When he
         isn't chasing storms, Chris likes to brew beer, explore Chicago on his
         bike, and make interactive maps. 
       items:
-        - Something Crazy
-        - Cool Fact
-        - Favorite chasing experience
+        - 'Favorite Chase: February 28 2017 Central Illinois'
+        - 'Favorite Chase Attraction: Visiting the Golden Spike in North Platte'
+        - 'Favorite part about chasing with Nate: His Spotify chase playlists'
       plan: ' '
       price: Chris
     - description: >-
