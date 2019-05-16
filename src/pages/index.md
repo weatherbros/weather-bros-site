@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: '"Never stop chasing..."'
+title: Never stop chasing...
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: ' '
