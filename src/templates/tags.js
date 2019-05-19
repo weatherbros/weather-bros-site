@@ -32,9 +32,9 @@ class TagRoute extends React.Component {
               >
                 <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
                 <ul className="taglist">{postLinks}</ul>
-                <p>
+                {/* <p>
                   <Link to="/tags/">Browse all tags</Link>
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -56,7 +56,6 @@ export const tagPageQuery = graphql`
     allMarkdownRemark(
       limit: 1000
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
       totalCount
       edges {
