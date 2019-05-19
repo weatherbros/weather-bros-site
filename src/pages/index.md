@@ -8,7 +8,7 @@ mainpitch:
   title: Week of Wedges 2019!
   description: >-
     Follow the Weather Bros. on Twitter, Instagram, and YouTube to get the
-    latest updates as the chase May 21-27
+    latest updates as they chase May 21-27
 description: >-
   Founded in 2014, the Weather Bros. are a storming spotting group based in
   Wisconsin. Our mission is to capture the entire chase experience while
