@@ -2,11 +2,9 @@
 templateKey: blog-post
 title: We're not in Kansas anymore...
 date: 2016-04-25T03:00:00.000Z
-description: Our first chase of the 2016 season + tornado!
+description: ' '
 ---
-
 `youtube: sOKbTiyzcZ0`
-
 
 The first chase of a season always brings about excitement and hopes of a good 4 to 5 months of chasing. While the beginning of 2016 was active in the deep south. The plains season had not really gotten underway through the beginning of April. As long range forecasts started to hone in on the last week of April as a potentially active severe weather week, we decided to get ourselves in gear and prepare for the inaugural chase of the 2016 season. In previous years we had either chased locally or done spot chasing in the Upper Midwest and Missouri Valley region. This year, we were attempting to expand our range and our efforts to become more committed chasers and spotters. To that end, we bought a Verizon mobile hotspot (which worked well), and various chargers and cameras to ensure a more successful chase. 
 
