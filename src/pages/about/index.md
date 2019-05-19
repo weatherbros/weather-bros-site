@@ -38,7 +38,7 @@ pricing:
   heading: ' '
   description: >-
     Nate and Chris met in college at the University of Wisconsin while studying
-    atmospheric science. Their shared interests in severe weather and aviation
+    atmospheric sciences. Their shared interests in severe weather and aviation
     quickly led to friendship. Since 2014, the Weather Bros. have chased severe
     weather events across the United States.
   plans:
