@@ -2,31 +2,24 @@
 templateKey: index-page
 title: Never stop chasing...
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
+heading: Chasing with a purpose
 subheading: ' '
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: Week of Wedges 2019!
+  description: >-
+    Follow the Weather Bros. on Twitter, Instagram, and YouTube to get the
+    latest updates as the chase May 21-27
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Founded in 2014, the Weather Bros. are a storming spotting group based in
+  Wisconsin. Our mission is to capture the entire chase experience while
+  educating about severe weather.
 intro:
   blurbs: []
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
-main:
   heading: ' '
   description: ' '
+main:
+  heading: '  '
+  description: '  '
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
