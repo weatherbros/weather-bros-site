@@ -37,10 +37,10 @@ full_image: /img/13335776_10209471314240941_7790114254137983552_n.png
 pricing:
   heading: ' '
   description: >-
-    Nate and Chris met in college at the University of Wisconsin while studying
-    atmospheric sciences. Their shared interests in severe weather and aviation
-    quickly led to friendship. Since 2014, the Weather Bros. have chased severe
-    weather events across the United States.
+    Nate and Chris met in college at the University of Wisconsin-Madison while
+    studying atmospheric sciences. Their shared interests in severe weather and
+    aviation quickly led to friendship. Since 2014, the Weather Bros. have
+    chased severe weather events across the United States.
   plans:
     - description: >-
         Nate works at a health care software company in Madison.  When he isn't
