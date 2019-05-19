@@ -43,6 +43,18 @@ pricing:
     weather events across the United States.
   plans:
     - description: >-
+        Nate works at a health care software company in Madison.  When he isn't
+        chasing he is flying planes, playing golf and travelling throughout the
+        world.
+      items:
+        - 'Favorite Chase: May 9 2016 Wynnewood and Sulphur Tornadoes'
+        - 'Favorite Chase Attraction: Roadside cows'
+        - >-
+          Favorite part about chasing with Chris: Watching him Bumble in every
+          small town in the plains
+      plan: ' '
+      price: Nate
+    - description: >-
         Chris works in data science at a technology company in Chicago. When he
         isn't chasing storms, Chris likes to brew beer, explore Chicago on his
         bike, and make interactive maps. 
@@ -52,15 +64,5 @@ pricing:
         - 'Favorite part about chasing with Nate: His Spotify chase playlists'
       plan: ' '
       price: Chris
-    - description: >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam cursus
-        elit sed purus gravida, nec fermentum dolor tincidunt. Etiam a nisi sed
-        erat aliquam auctor.
-      items:
-        - Fact1
-        - Fact2
-        - Fact3
-      plan: ' '
-      price: Nate
 ---
 
